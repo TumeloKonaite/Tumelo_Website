@@ -13,19 +13,9 @@ import Project6 from "../../Assets/Projects/6.png";
 import Project10 from "../../Assets/Projects/10.png";
 import BeautyVerseImage from "../../Assets/Projects/beautyverse.png";
 import LetsGoLogo from "../../Assets/Projects/letsg0-logo.png";
+import KasiFplImage from "../../Assets/Projects/kasifpl.svg";
 
 const featuredProjects = [
-  {
-    imgPath: LetsGoLogo,
-    title: "LetsGo South Africa - AI-Powered Tourism Platform",
-    description: `Built a full-stack tourism platform for LetsGo South Africa where admins manage travel packages and customers browse listings, submit enquiries, and chat with an AI travel assistant.
-
-Delivered a FastAPI backend, PostgreSQL database, React/Vite frontend, authentication, image workflows, enquiry handling, and cloud deployment.
-
-Skills: FastAPI, React, PostgreSQL, AI Chat, Admin Workflows.`,
-    demoLink: "https://letsgodb.web.app/",
-    demoLabel: "Website",
-  },
   {
     imgPath: BeautyVerseImage,
     title: "BeautyVerse - Beauty Services Marketplace",
@@ -35,6 +25,28 @@ The platform demonstrates reusable backend architecture, listing management, cat
 
 Skills: FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker.`,
     demoLink: "https://beautyverse.co.za/",
+    demoLabel: "Website",
+  },
+  {
+    imgPath: KasiFplImage,
+    title: "KasiFPL - AI-Powered Fantasy Premier League Intelligence Platform",
+    description: `Built an AI-powered Fantasy Premier League platform that analyses YouTube content from trusted FPL experts and transforms their recommendations into structured, gameweek-specific insights.
+
+The platform ingests expert transcripts, extracts player recommendations, captaincy picks, transfers, risks, and team reveals, then combines them into a transparent Consensus XI using expert support and valid FPL formation rules. It also supports historical gameweek reports, source provenance, player validation, confidence indicators, and interactive squad visualisation.
+
+Skills: Python, FastAPI, React, PostgreSQL, Generative AI, Retrieval Pipelines, YouTube Transcripts, Data Aggregation, Docker, CI/CD.`,
+    demoLink: "https://kasifpl.co.za/",
+    demoLabel: "Website",
+  },
+  {
+    imgPath: LetsGoLogo,
+    title: "LetsGo South Africa - AI-Powered Tourism Platform",
+    description: `Built a full-stack tourism platform for LetsGo South Africa where admins manage travel packages and customers browse listings, submit enquiries, and chat with an AI travel assistant.
+
+Delivered a FastAPI backend, PostgreSQL database, React/Vite frontend, authentication, image workflows, enquiry handling, and cloud deployment.
+
+Skills: FastAPI, React, PostgreSQL, AI Chat, Admin Workflows.`,
+    demoLink: "https://letsgodb.web.app/",
     demoLabel: "Website",
   },
   {

@@ -1,0 +1,37 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="70" y1="34" x2="1118" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07152B"/>
+      <stop offset="1" stop-color="#102A4C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="366" y1="137" x2="796" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4BD6FF"/>
+      <stop offset="1" stop-color="#8A5CFF"/>
+    </linearGradient>
+    <filter id="glow" x="272" y="61" width="656" height="378" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" rx="28" fill="url(#background)"/>
+  <g opacity=".18" stroke="#70DFFF" stroke-width="2">
+    <path d="M0 114H1200M0 386H1200M236 0V500M964 0V500"/>
+    <circle cx="600" cy="250" r="122"/>
+    <path d="M600 0V500"/>
+    <rect x="0" y="143" width="154" height="214"/>
+    <rect x="1046" y="143" width="154" height="214"/>
+  </g>
+
+  <ellipse cx="600" cy="250" rx="280" ry="135" fill="#52C8FF" fill-opacity=".16" filter="url(#glow)"/>
+
+  <g transform="translate(505 69)">
+    <path d="M95 0L177 34V112C177 180 143 229 95 258C47 229 13 180 13 112V34L95 0Z" fill="url(#accent)"/>
+    <path d="M95 22L156 47V110C156 160 132 198 95 224C58 198 34 160 34 110V47L95 22Z" fill="#08172B"/>
+    <path d="M95 54V192M59 92H131M56 151H134" stroke="#EAF8FF" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="95" cy="122" r="24" fill="#08172B" stroke="#EAF8FF" stroke-width="8"/>
+    <path d="M64 68L95 53L126 68" stroke="#EAF8FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="600" y="376" fill="#F5FBFF" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800" text-anchor="middle" letter-spacing="5">KASI<tspan fill="#59D4FF">FPL</tspan></text>
+  <text x="600" y="423" fill="#B9CDE2" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600" text-anchor="middle" letter-spacing="7">FANTASY INTELLIGENCE</text>
+</svg>
