@@ -101,7 +101,7 @@ function Talks() {
                     </Card.Text>
 
                     <Button variant="primary" href={post.link} target="_blank" rel="noopener noreferrer">
-                      <AiOutlineRead /> &nbsp;Read Article
+                      <AiOutlineRead /> &nbsp;{post.linkLabel || "Read Article"}
                     </Button>
                   </Card.Body>
                 </Card>
