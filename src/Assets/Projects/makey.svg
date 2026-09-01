@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Makey room rental marketplace</title>
+  <desc id="description">A stylized room rental marketplace showing searchable property cards.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f2ea"/>
+      <stop offset="1" stop-color="#e7f1ec"/>
+    </linearGradient>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a66f"/>
+      <stop offset="1" stop-color="#8b5e3c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#153d35" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <rect x="70" y="54" width="1060" height="568" rx="30" fill="#fffdf9" filter="url(#shadow)"/>
+  <g fill="#123f37">
+    <path d="M123 127 171 88l48 39v59h-35v-41h-26v41h-35z"/>
+    <text x="239" y="158" font-family="Arial, sans-serif" font-size="54" font-weight="700">MAKEY</text>
+  </g>
+  <text x="123" y="242" fill="#123f37" font-family="Arial, sans-serif" font-size="42" font-weight="700">Find a room that feels like home.</text>
+  <text x="123" y="284" fill="#58706b" font-family="Arial, sans-serif" font-size="24">Browse rooms to rent across South Africa.</text>
+  <rect x="123" y="326" width="682" height="74" rx="18" fill="#f4f6f3" stroke="#cad8d3" stroke-width="3"/>
+  <circle cx="167" cy="363" r="13" fill="none" stroke="#58706b" stroke-width="5"/>
+  <path d="m177 373 15 15" stroke="#58706b" stroke-width="5" stroke-linecap="round"/>
+  <text x="215" y="373" fill="#71827e" font-family="Arial, sans-serif" font-size="23">Search Cape Town, Johannesburg, Durban...</text>
+  <rect x="824" y="326" width="243" height="74" rx="18" fill="#123f37"/>
+  <text x="877" y="373" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="700">Search rooms</text>
+  <g transform="translate(123 445)">
+    <rect width="290" height="130" rx="20" fill="url(#room)"/>
+    <rect x="22" y="22" width="102" height="65" rx="7" fill="#f7e6cb"/>
+    <path d="M22 87h246v43H22z" fill="#6f4931" opacity=".75"/>
+    <text x="145" y="52" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="700">Furnished room</text>
+    <text x="145" y="82" fill="#fff4e4" font-family="Arial, sans-serif" font-size="18">R4,500 / month</text>
+  </g>
+  <g transform="translate(455 445)">
+    <rect width="290" height="130" rx="20" fill="#759b8f"/>
+    <path d="M20 93 91 34l58 46 38-31 83 67v14H20z" fill="#dce9e3"/>
+    <text x="145" y="52" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="700">Private room</text>
+    <text x="145" y="82" fill="#eef7f3" font-family="Arial, sans-serif" font-size="18">R3,800 / month</text>
+  </g>
+  <g transform="translate(777 445)">
+    <rect width="290" height="130" rx="20" fill="#d7b56d"/>
+    <circle cx="68" cy="59" r="32" fill="#fff1ca"/>
+    <path d="M38 111c7-24 22-36 30-36s23 12 30 36" fill="#f4dfaa"/>
+    <text x="123" y="52" fill="#43351f" font-family="Arial, sans-serif" font-size="20" font-weight="700">Move-in ready</text>
+    <text x="123" y="82" fill="#5b4929" font-family="Arial, sans-serif" font-size="18">R5,200 / month</text>
+  </g>
+</svg>
