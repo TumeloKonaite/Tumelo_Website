@@ -44,10 +44,11 @@ function About() {
                 Work <strong className="purple">With Me</strong>
               </h1>
               <p style={{ color: "white", marginBottom: "16px" }}>
-                I help teams turn product ideas into production-ready full-stack and AI systems.
+                I help teams turn product ideas into secure, production-ready software systems.
               </p>
               <p style={{ color: "white", marginBottom: "16px" }}>
-                I am especially useful where frontend experiences, backend engineering, AI, data, and cloud delivery overlap.
+                My core strength is software engineering, supported by practical experience across AI, machine learning,
+                data science, and cloud delivery.
               </p>
               <p style={{ color: "white", marginBottom: "12px" }}>
                 In practice, that usually means:

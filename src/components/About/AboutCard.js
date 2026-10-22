@@ -57,14 +57,14 @@ function AboutCard() {
         </div>
 
         <section className="profile-section" aria-labelledby="profile-summary">
-          <p className="profile-eyebrow">AI Full-Stack Engineer</p>
-          <h2 id="profile-summary">Building intelligent products end to end</h2>
+          <p className="profile-eyebrow">Software Engineer</p>
+          <h2 id="profile-summary">Building reliable software from idea to production</h2>
           <p className="profile-summary">
-            AI Full-Stack Engineer with an MSc in Computational and Applied Mathematics and hands-on experience
-            designing, developing, deploying, and maintaining full-stack and AI-powered applications. I work across
-            Python, FastAPI, React, TypeScript, PostgreSQL, REST APIs, Docker, and cloud technologies, with practical
-            experience integrating large language models, retrieval-augmented generation, and intelligent automation
-            into secure, scalable, and maintainable software.
+            Software Engineer with an MSc in Computational and Applied Mathematics and hands-on experience designing,
+            developing, testing, deploying, and maintaining production software. I work across Python, FastAPI, React,
+            TypeScript, PostgreSQL, REST APIs, Docker, and cloud technologies. My background in AI, machine learning,
+            and data science complements that engineering foundation, enabling me to integrate LLMs, retrieval-augmented
+            generation, intelligent automation, and analytical capabilities into secure, scalable, and maintainable products.
           </p>
         </section>
 
