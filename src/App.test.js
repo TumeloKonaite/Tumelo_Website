@@ -18,6 +18,6 @@ test("renders the portfolio home view", () => {
   render(<App />);
 
   expect(screen.getAllByText(/Tumelo Konaite/i).length).toBeGreaterThan(0);
-  expect(screen.getByText(/Data Scientist, AI Engineer & Software Engineer/i)).toBeInTheDocument();
+  expect(screen.getAllByText(/AI Full-Stack Engineer/i).length).toBeGreaterThan(0);
   expect(screen.getByRole("link", { name: /System Profile/i })).toBeInTheDocument();
 });
