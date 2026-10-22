@@ -12,22 +12,23 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <div className="observatory-label">System profile</div>
             <h1 style={{ fontSize: "2.6em" }}>
-              Full-stack engineering meets <span className="purple">applied AI</span>
+              Software engineering, strengthened by <span className="purple">applied AI</span>
             </h1>
 
             <p className="home-about-body">
-              I am <span className="purple">Tumelo Konaite</span>, an <span className="purple">AI Full-Stack
+              I am <span className="purple">Tumelo Konaite</span>, a <span className="purple">Software
               Engineer</span> focused on turning business requirements into secure, scalable, and maintainable
-              applications.
+              software products.
               <br />
               <br />
-              My work spans <span className="purple">React and TypeScript interfaces</span>, Python and FastAPI
-              services, PostgreSQL data layers, <span className="purple">Retrieval-Augmented Generation</span>,
-              LLM integrations, automated testing, and cloud-native delivery.
+              My core work spans <span className="purple">Python and FastAPI services</span>, React and TypeScript
+              interfaces, PostgreSQL data layers, automated testing, system integration, and cloud-native delivery.
+              I complement that foundation with <span className="purple">AI, machine learning, and data science</span>,
+              including Retrieval-Augmented Generation and LLM integration.
               <br />
               <br />
-              I work across the complete delivery path—from architecture and database design to integrations,
-              CI/CD, deployment, and production troubleshooting—so intelligent features become dependable products.
+              I work across the complete software delivery path—from architecture and database design to integrations,
+              CI/CD, deployment, and production troubleshooting—using intelligent capabilities when they improve the product.
             </p>
 
             <ul>

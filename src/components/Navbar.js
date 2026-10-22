@@ -45,7 +45,7 @@ function NavBar() {
           <img src={logo} className="img-fluid logo" alt="brand" />
           <div className="brand-copy">
             <span className="brand-name">Tumelo Konaite</span>
-            <span className="brand-tag">AI | Full-Stack | Cloud</span>
+            <span className="brand-tag">Software | AI | Data</span>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle

@@ -1,6 +1,6 @@
 ﻿# Personal Portfolio | Tumelo Konaite
 
-This repository contains my personal portfolio website, where I share my work in machine learning engineering, applied AI, and production system design.
+This repository contains my personal software engineering portfolio, where I share production systems, backend and full-stack work, and applied AI, machine learning, and data science projects.
 
 Live Demo: [https://frontend-kappa-sandy-5ojkp7a7w8.vercel.app/](https://frontend-kappa-sandy-5ojkp7a7w8.vercel.app/)
 

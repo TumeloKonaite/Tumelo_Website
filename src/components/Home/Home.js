@@ -19,14 +19,15 @@ function Home() {
         <Container className="home-content">
           <Row className="align-items-center gy-5">
             <Col md={7} className="home-header">
-              <div className="observatory-label">AI products · full-stack delivery · cloud systems</div>
+              <div className="observatory-label">Software engineering · AI-enabled products · cloud delivery</div>
               <h1 className="hero-title">
                 Tumelo Konaite
-                <span className="hero-title-accent">AI Full-Stack Engineer</span>
+                <span className="hero-title-accent">Software Engineer</span>
               </h1>
               <p className="hero-summary">
-                I design, build, and deploy full-stack and AI-powered applications with Python, FastAPI, React,
-                TypeScript, PostgreSQL, cloud infrastructure, and modern LLM tooling.
+                I design, build, test, and deploy reliable software systems with Python, FastAPI, React,
+                TypeScript, PostgreSQL, and cloud infrastructure—applying AI, machine learning, and data science
+                where they create practical value.
                 <br />
                 <span className="hero-summary-tagline">From business requirement to reliable production software.</span>
               </p>
@@ -55,12 +56,12 @@ function Home() {
 
               <div className="hero-metrics">
                 <div className="hero-metric-card">
-                  <span className="hero-metric-value">AI engineering</span>
-                  <span className="hero-metric-label">LLM integration, RAG, embeddings, and intelligent automation</span>
+                  <span className="hero-metric-value">Software engineering</span>
+                  <span className="hero-metric-label">Secure APIs, maintainable architecture, testing, and integrations</span>
                 </div>
                 <div className="hero-metric-card">
-                  <span className="hero-metric-value">Full-stack delivery</span>
-                  <span className="hero-metric-label">React experiences, FastAPI services, data, and integrations</span>
+                  <span className="hero-metric-value">Applied AI + data</span>
+                  <span className="hero-metric-label">LLMs, RAG, machine learning, analytics, and intelligent workflows</span>
                 </div>
                 <div className="hero-metric-card">
                   <span className="hero-metric-value">Production-first</span>
@@ -87,11 +88,11 @@ function Home() {
                 <div className="signal-grid">
                   <div className="signal-card">
                     <span className="signal-label">Primary domains</span>
-                    <strong>AI engineering, full-stack products, cloud platforms</strong>
+                    <strong>Software engineering, backend systems, full-stack products</strong>
                   </div>
                   <div className="signal-card">
                     <span className="signal-label">Operating mode</span>
-                    <strong>Analytical depth with production engineering discipline</strong>
+                    <strong>Production engineering strengthened by AI, ML, and data science</strong>
                   </div>
                   <div className="signal-card">
                     <span className="signal-label">Output</span>
