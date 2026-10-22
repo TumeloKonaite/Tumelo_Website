@@ -12,45 +12,43 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <div className="observatory-label">System profile</div>
             <h1 style={{ fontSize: "2.6em" }}>
-              A software engineer&apos;s <span className="purple">AI portfolio</span>
+              Full-stack engineering meets <span className="purple">applied AI</span>
             </h1>
 
             <p className="home-about-body">
-              I am <span className="purple">Tumelo Konaite</span>, a <span className="purple">Data Scientist,
-              AI Engineer, and Software Engineer</span> focused on building production-ready systems that solve
-              practical problems and create measurable business value.
+              I am <span className="purple">Tumelo Konaite</span>, an <span className="purple">AI Full-Stack
+              Engineer</span> focused on turning business requirements into secure, scalable, and maintainable
+              applications.
               <br />
               <br />
-              My work spans <span className="purple">data science</span>, <span className="purple">predictive
-              analytics</span>, <span className="purple">Retrieval-Augmented Generation</span>, <span className="purple">agentic AI systems</span>,
-              backend platform development, and cloud-native applications.
+              My work spans <span className="purple">React and TypeScript interfaces</span>, Python and FastAPI
+              services, PostgreSQL data layers, <span className="purple">Retrieval-Augmented Generation</span>,
+              LLM integrations, automated testing, and cloud-native delivery.
               <br />
               <br />
-              I specialize in taking solutions beyond experimentation and into production, whether that means
-              educational platforms, customer support automation, marketplace backends, predictive models,
-              or enterprise AI applications.
+              I work across the complete delivery path—from architecture and database design to integrations,
+              CI/CD, deployment, and production troubleshooting—so intelligent features become dependable products.
             </p>
 
             <ul>
               <li className="about-activity">
-                <ImPointRight /> Building end-to-end systems that combine analytics, machine learning, AI, and software engineering.
+                <ImPointRight /> Building responsive product experiences backed by secure APIs, data, and AI capabilities.
               </li>
               <br />
               <li className="about-activity">
-                <ImPointRight /> Designing modular architectures, APIs, and cloud-native services that are maintainable and scalable.
+                <ImPointRight /> Integrating LLMs, embeddings, and RAG into practical workflows with clear user value.
               </li>
               <br />
               <li className="about-activity">
-                <ImPointRight /> Translating data-driven ideas into production systems aligned with real business objectives.
+                <ImPointRight /> Shipping tested, containerised applications through repeatable cloud delivery workflows.
               </li>
             </ul>
 
             <p className="home-about-body">
               With an <span className="purple">MSc in Computational and Applied Mathematics</span>, I combine
-              quantitative modelling, statistical analysis, and rigorous problem-solving with practical product
-              development and software engineering. My MSc research focused on quantitative finance, derivative pricing,
-              and interest-rate modelling, giving me a strong mathematical foundation for machine learning, risk modelling,
-              and financial AI applications.
+              quantitative reasoning and rigorous problem-solving with practical product development and software
+              engineering. That foundation helps me reason clearly about data, models, system behaviour, and the
+              trade-offs involved in reliable AI-enabled software.
             </p>
           </Col>
 
@@ -68,14 +66,14 @@ function Home2() {
             <div className="insight-panel">
               <span className="signal-label">Engineering stance</span>
               <h3>Data to product</h3>
-              <p>I focus on turning data, models, and AI workflows into products that can be deployed, measured, and improved.</p>
+              <p>I connect product interfaces, APIs, databases, and AI workflows into cohesive systems.</p>
             </div>
           </Col>
           <Col md={4}>
             <div className="insight-panel">
               <span className="signal-label">What I optimize</span>
-              <h3>Business-aligned systems</h3>
-              <p>Performance, maintainability, operational simplicity, and clear outcomes matter more than novelty alone.</p>
+              <h3>Reliable systems</h3>
+              <p>Security, automated testing, maintainability, and clear outcomes matter more than novelty alone.</p>
             </div>
           </Col>
           <Col md={4}>

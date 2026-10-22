@@ -17,7 +17,7 @@ function About() {
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
-              md={7}
+              lg={9}
               style={{
                 justifyContent: "center",
                 paddingTop: "30px",
@@ -30,7 +30,7 @@ function About() {
               <Aboutcard />
             </Col>
             <Col
-              md={5}
+              lg={3}
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
               className="about-img"
             >
@@ -44,25 +44,26 @@ function About() {
                 Work <strong className="purple">With Me</strong>
               </h1>
               <p style={{ color: "white", marginBottom: "16px" }}>
-                I help teams move from AI ideas to production-ready systems.
+                I help teams turn product ideas into production-ready full-stack and AI systems.
               </p>
               <p style={{ color: "white", marginBottom: "16px" }}>
-                I am especially useful where AI, data, backend engineering, and product delivery overlap.
+                I am especially useful where frontend experiences, backend engineering, AI, data, and cloud delivery overlap.
               </p>
               <p style={{ color: "white", marginBottom: "12px" }}>
                 In practice, that usually means:
               </p>
               <ul>
                 <li className="about-activity" style={{ marginBottom: "12px" }}>
-                  <ImPointRight /> <span className="purple">LLM application engineering</span> with robust retrieval,
-                  evaluation, and deployment practices.
+                  <ImPointRight /> <span className="purple">AI-powered product development</span> with LLMs,
+                  embeddings, retrieval, and intelligent automation.
                 </li>
                 <li className="about-activity" style={{ marginBottom: "12px" }}>
-                  <ImPointRight /> <span className="purple">ML system design</span> that balances performance, reliability,
-                  and cost.
+                  <ImPointRight /> <span className="purple">Full-stack delivery</span> with React, TypeScript,
+                  FastAPI, PostgreSQL, and secure API integrations.
                 </li>
                 <li className="about-activity" style={{ marginBottom: "12px" }}>
-                  <ImPointRight /> <span className="purple">Data and API workflows</span> for scalable AI services.
+                  <ImPointRight /> <span className="purple">Architecture and quality</span> through modular design,
+                  automated testing, authentication, and production troubleshooting.
                 </li>
                 <li className="about-activity" style={{ marginBottom: "12px" }}>
                   <ImPointRight /> <span className="purple">Production analytics and cloud deployment</span> for
